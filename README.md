@@ -21,6 +21,8 @@ The browser requests a page of 20 songs from the server: /api/songs?seed=...&pag
 The server combines the seed with the page number, seeds faker and generates the songs in memory.
 Covers and music are loaded separately by their own seeds: /api/covers and /api/audio/:seed.
 
+In production it runs as a single service: the root Dockerfile builds the frontend and copies it into the backend, which serves the static files and the /api routes from one port.
+
 The parameters (language, seed, likes) are independent. Changing likes does not change titles or covers — only the like counts. A fractional likes value works probabilistically: 0.5 gives on average 1 like per 2 songs.
 
 Covers are drawn on canvas: a palette and one of three styles (rings, bands, shapes) chosen by the seed, with the title and artist rendered on top.
