@@ -1,0 +1,44 @@
+{
+  "single": "Single",
+  "adjectives": [
+    "Electric", "Silent", "Golden", "Broken", "Endless", "Hollow", "Crimson", "Velvet",
+    "Frozen", "Burning", "Distant", "Hidden", "Savage", "Gentle", "Lonely", "Wild",
+    "Sacred", "Restless", "Faded", "Bright", "Midnight", "Neon", "Paper", "Glass",
+    "Iron", "Cosmic", "Lunar", "Bitter", "Sweet", "Reckless", "Quiet", "Eternal"
+  ],
+  "nouns": [
+    "Horizon", "Heartbeat", "Shadow", "Echo", "River", "Machine", "Garden", "Storm",
+    "Mirror", "Ghost", "City", "Ocean", "Flame", "Dream", "Letter", "Highway",
+    "Winter", "Summer", "Stranger", "Lover", "Comet", "Signal", "Halo", "Tiger",
+    "Avenue", "Cathedral", "Static", "Lullaby", "Velocity", "Pulse", "Anthem", "Requiem"
+  ],
+  "bandSuffixes": [
+    "Collective", "Brothers", "Society", "Orchestra", "Project", "Club", "Theory",
+    "Machine", "Department", "Union", "Affair", "Revival", "Empire", "Brigade"
+  ],
+  "genres": [
+    "Indie Rock", "Dream Pop", "Synthwave", "Hip-Hop", "Electronic", "Alternative",
+    "Folk", "Jazz", "R&B", "Ambient", "Punk", "Soul", "Techno", "Shoegaze",
+    "Post-Rock", "Lo-Fi", "Garage Rock", "Trip-Hop", "Disco", "Hardcore"
+  ],
+  "reviewOpeners": [
+    "A bold statement from start to finish.",
+    "An unexpected gem hidden in the tracklist.",
+    "This one sneaks up on you slowly.",
+    "Easily a standout moment on the record.",
+    "A track that refuses to sit still.",
+    "Pure atmosphere wrapped in melody.",
+    "A restless, shimmering little anthem.",
+    "Quietly devastating in the best way."
+  ],
+  "reviewBodies": [
+    "The production feels both intimate and enormous, with layers that reveal themselves on every listen.",
+    "Rhythms tumble over one another while the melody keeps a steady, hypnotic course.",
+    "Vocals drift just above the mix, half-whispered and entirely magnetic.",
+    "The bassline does most of the heavy lifting, anchoring an otherwise weightless arrangement.",
+    "It builds patiently before collapsing into a chorus that lingers long after it ends.",
+    "There is a warmth to the recording that feels like an old photograph come to life.",
+    "Every instrument seems to be in conversation, trading space without ever crowding.",
+    "The hook is deceptively simple, the kind you find yourself humming hours later."
+  ]
+}

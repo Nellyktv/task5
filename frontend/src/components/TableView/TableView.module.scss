@@ -1,0 +1,30 @@
+@use '../../styles/variables' as *;
+
+.container {
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+.titleCell {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.thumb {
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.trackTitle {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.likes {
+  font-weight: 700;
+}

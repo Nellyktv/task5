@@ -1,0 +1,44 @@
+@use '../../styles/variables' as *;
+
+.details {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border-radius: $radius;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.info {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.artist {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.reviewLabel {
+  margin-top: 18px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.reviewText {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.55;
+  opacity: 0.85;
+}

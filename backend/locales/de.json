@@ -1,0 +1,44 @@
+{
+  "single": "Single",
+  "adjectives": [
+    "Elektrisch", "Stilles", "Goldenes", "Gebrochenes", "Endloses", "Hohles", "Rotes", "Samtenes",
+    "Gefrorenes", "Brennendes", "Fernes", "Verborgenes", "Wildes", "Sanftes", "Einsames", "Helles",
+    "Heiliges", "Ruheloses", "Verblasstes", "Dunkles", "Mitternacht", "Neon", "Papierenes", "Gläsernes",
+    "Eisernes", "Kosmisches", "Lunares", "Bitteres", "Süßes", "Ewiges", "Leises", "Kaltes"
+  ],
+  "nouns": [
+    "Horizont", "Herzschlag", "Schatten", "Echo", "Fluss", "Maschine", "Garten", "Sturm",
+    "Spiegel", "Geist", "Stadt", "Ozean", "Flamme", "Traum", "Brief", "Autobahn",
+    "Winter", "Sommer", "Fremder", "Liebhaber", "Komet", "Signal", "Heiligenschein", "Tiger",
+    "Allee", "Kathedrale", "Rauschen", "Wiegenlied", "Geschwindigkeit", "Puls", "Hymne", "Requiem"
+  ],
+  "bandSuffixes": [
+    "Kollektiv", "Brüder", "Gesellschaft", "Orchester", "Projekt", "Klub", "Theorie",
+    "Maschine", "Abteilung", "Union", "Affäre", "Erwachen", "Imperium", "Brigade"
+  ],
+  "genres": [
+    "Indie-Rock", "Dream-Pop", "Synthwave", "Hip-Hop", "Elektro", "Alternative",
+    "Volksmusik", "Jazz", "R&B", "Ambient", "Punk", "Soul", "Techno", "Shoegaze",
+    "Post-Rock", "Lo-Fi", "Garage-Rock", "Trip-Hop", "Disco", "Hardcore"
+  ],
+  "reviewOpeners": [
+    "Eine kühne Aussage von Anfang bis Ende.",
+    "Ein unerwartetes Juwel, versteckt in der Trackliste.",
+    "Dieser Titel beschleicht dich ganz langsam.",
+    "Eindeutig ein Höhepunkt auf der Platte.",
+    "Ein Stück, das sich weigert, still zu stehen.",
+    "Reine Atmosphäre, eingehüllt in Melodie.",
+    "Eine ruhelose, schimmernde kleine Hymne.",
+    "Leise verheerend, im allerbesten Sinne."
+  ],
+  "reviewBodies": [
+    "Die Produktion wirkt zugleich intim und gewaltig, mit Schichten, die sich bei jedem Hören neu offenbaren.",
+    "Rhythmen überschlagen sich, während die Melodie einen ruhigen, hypnotischen Kurs hält.",
+    "Die Stimme schwebt knapp über dem Mix, halb geflüstert und vollkommen magnetisch.",
+    "Die Basslinie leistet die meiste Arbeit und verankert ein sonst schwereloses Arrangement.",
+    "Es baut sich geduldig auf, bevor es in einen Refrain mündet, der lange nachhallt.",
+    "Eine Wärme liegt in der Aufnahme, als würde eine alte Fotografie lebendig werden.",
+    "Jedes Instrument scheint im Gespräch zu sein, gibt Raum, ohne je zu drängen.",
+    "Der Hook ist täuschend einfach, der, den man Stunden später noch summt."
+  ]
+}
