@@ -1,11 +1,17 @@
-import { createCanvas } from '@napi-rs/canvas';
+import { createCanvas, GlobalFonts } from '@napi-rs/canvas';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
 import { createRand } from './rng.js';
+
+const fontsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'fonts');
+GlobalFonts.registerFromPath(join(fontsDir, 'Roboto-Regular.ttf'), 'Roboto');
+GlobalFonts.registerFromPath(join(fontsDir, 'Roboto-Bold.ttf'), 'Roboto');
 
 const SIZE = 600;
 
 const TEXT_LEFT = 42;
-const TITLE_FONT = 'bold 54px Arial';
-const ARTIST_FONT = '500 30px Arial';
+const TITLE_FONT = 'bold 54px Roboto';
+const ARTIST_FONT = '500 30px Roboto';
 const TITLE_BASELINE = 492;
 const ARTIST_BASELINE = 558;
 const LINE_HEIGHT = 60;
