@@ -2,6 +2,8 @@ Music Store — fake song generator
 
 The app generates fake songs (title, artist, album, genre, cover and the track itself) from a given seed. Nothing is stored — everything is generated on the server per request, but the same seed always produces the same result.
 
+Live demo: https://task5-gy3r.onrender.com
+
 Tech stack
 
 Frontend: React + TypeScript + Vite, MUI, Zustand, Tone.js + smplr (audio in the browser), Axios.
