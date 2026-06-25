@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import {
   Box,
+  CircularProgress,
   Pagination,
   Table,
   TableBody,
@@ -33,7 +34,7 @@ export const TableView = ({ params, onError }: Props) => {
     setMaxPage(1);
   }
 
-  const { songs, pageSize } = useSongs({ params, page, onError });
+  const { songs, pageSize, loading } = useSongs({ params, page, onError });
 
   const handlePageChange = (_: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
@@ -42,6 +43,14 @@ export const TableView = ({ params, onError }: Props) => {
   const hasNextPage = songs.length >= pageSize;
   const knownMax = hasNextPage ? page + 1 : page;
   if (knownMax > maxPage) setMaxPage(knownMax);
+
+  if (loading) {
+    return (
+      <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
+        <CircularProgress />
+      </Box>
+    );
+  }
 
   return (
     <Box>
