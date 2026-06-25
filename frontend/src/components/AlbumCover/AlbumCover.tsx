@@ -27,7 +27,6 @@ export const AlbumCover = ({ seed, title, artist, size = 320, fluid = false }: P
         src={src}
         alt={`${title} — ${artist}`}
         onLoad={() => setLoaded(true)}
-        onError={() => setLoaded(true)}
         className={`${styles.cover} ${loaded ? styles.coverLoaded : ''}`}
       />
     </Box>
